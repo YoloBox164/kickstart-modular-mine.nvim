@@ -69,7 +69,7 @@ return {
         -- One of 'left', 'right', 'none'.
         tabpage_section = 'left',
       }
-
+      require('mini.animate').setup()
       -- Simple and easy statusline.
       --  You could remove this setup call if you don't like it,
       --  and try some other statusline plugin
