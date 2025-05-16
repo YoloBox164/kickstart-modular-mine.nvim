@@ -105,10 +105,13 @@ require 'lazy-bootstrap'
 -- [[ Configure and install plugins ]]
 require 'lazy-plugins'
 
+--  TODO: Add transparency for tablines
+
 -- [[ Fully fledged transparency ]]
 vim.cmd [[
   highlight NeoTreeNormal guibg=none
-  highlight NeoTreeNormal ctermbg=none
+  highlight NeoTreeNormalNC guibg=none
+  highlight NeoTreeStatusHeader guibg=none 
 ]] -- quick fix, I can't get the tabline to be transparent so the solid background stays for now
 
 -- The line beneath this is called `modeline`. See `:help modeline`
