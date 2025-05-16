@@ -28,5 +28,6 @@ return {
   opts = {
     position = 'bot',
     size = 20,
+    jump_tab_mapping = '<A-$tab>',
   },
 }
